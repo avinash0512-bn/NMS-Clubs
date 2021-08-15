@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Clubs Portal</title>
+    <style>
+    .AllClubs{
+        display: grid;
+        grid-template-columns: auto auto;
+        border: blue;
+        height: 100vh;
+        gap: 10px;
+        color:gold;
+    }
+    .AllClubs div{
+        border:outset blue;
+        color: gold;
+        background-color: rgb(255, 0, 0);
+    }
+    .AllClubs img{
+        width: 50%;
+        height: 300px;
+        float:left;
+    }
+    .btn-gradient {
+
+        width: 200px;
+
+        height: 40px;
+
+        border: none;
+
+        border-radius: 10px;
+
+        color: #fff;
+
+        animation: c 53s linear infinite;
+
+        background: linear-gradient(
+
+        121.19deg,
+
+        rgba(133, 239, 49, 0) 25.73%,
+
+        hsla(0, 0%, 100%, 0.3) 45.27%,
+
+        rgba(133, 239, 49, 0) 62.27% ), orange;
+
+        transition: background-color 0.5s ease;
+
+        }
+
+        .btn-gradient:hover {
+
+        animation: c 53s linear infinite;
+
+        background: linear-gradient(
+
+        121.19deg,
+
+        rgba(133, 239, 49, 0) 25.73%,
+
+        hsla(0, 0%, 100%, 0.3) 45.27%,
+
+        rgba(133, 239, 49, 0) 62.27% ), blue;
+
+        }
+
+        @keyframes c {
+
+        0% {
+
+        background-position: -5000px 0;
+
+        }
+
+        to {
+
+        background-position: 5000px 0;
+
+        }
+        
+
+}
+    nav{
+        background-color: rgb(23, 20, 220);
+        margin-bottom: 10px;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+    }
+    nav ul li{
+        padding: 10px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .AllClubs p{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align:justify ;
+        padding-right: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <nav>
+                <ul>
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href="about me.html">About Me</a> </li>
+                    <li> <a href="quotes.html">Quote Of The Day</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="AllClubs">
+            <div class="Readers_Club">
+                <img src="../static/Readers Club.png" alt="Readers Club">
+                <p>“ A reader lives a thousand lives before he dies . . . The man who never reads lives only one. ” - George R.R. Martin.
+                Reading is a conversation.All books talk, But a good book listens as well. So, join the Readers Club if you want experience the Magic of Reading.</p>
+                <a href="readersclub.html"><button class="btn-gradient">Join Now !</button></a>
+            </div>
+            <div class="Environmental_Club">
+                <img src="../static/environmental club.png" alt="Environmental Club">
+                <p>"Environment is no one’s property to destroy; it’s everyone’s responsibility to protect."
+                Join the Environmental to experience the creative space of Biodiversity or even find one. Find ways to protect this amazing thing God has given us.</p>
+                <a href="environmentalclub.html"><button  class="btn-gradient">Join Now !</button></a>
+            </div>
+            <div class="Quiz_Society">
+                <img src="../static/Quiz Society.png" alt="Quiz Society">
+                <p>“Isn’t life a collection of weird quizzes with no answers to half the questions?”
+                Want to be a "Big-Brainer" like your friends say. Join the Quiz_Society to experience the world of questions.</p>
+                <a href="quizsociety.html"><button  class="btn-gradient">Join Now !</button></a>
+            </div>
+            <div class="Happiness_Club">
+                <img src="../static/Happiness Club.png" alt="Happiness Club">
+                <p>"Happiness doesn't depend on what we have, but it does depend on how we feel toward what we have. We can be happy with little and miserable with much."
+                Happiness is when your life fulfills your needs and mostly when you help others. So join the Happiness Club to make others happy and yourself.</p>
+                <a href="happinessclub.html"><button  class="btn-gradient">Join Now !</button></a>
+            </div>
+            <div class="Ethical_Society">
+                <img src="../static/ethical11.png" alt="Ethics">
+                <p>"Ethics is knowing the difference between what you have a right to do and what is right to do."
+                Knowing what is ethics helps you to decide what to do in the most extreme situations. So join the ethical society to help others and enjoy !</p>
+                <a href="ethical.html"><button  class="btn-gradient">Join Now !</button></a>
+            </div>
+            <div class="Editorial_Board">
+                <img src="../static/Editorial Board.png" alt="">
+                <p>"Journalism is not for everyone, its only for the people who have it in their heart"
+                Want to be a journalist, well this is the perfect oppurtunity for your dreams. Interview the famous people who come to our school. So join the editorial board to make your dreams come true.</p>
+                <a href="editorial.html"><button  class="btn-gradient">Join Now !</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
