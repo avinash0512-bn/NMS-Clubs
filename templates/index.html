@@ -5,123 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join Clubs Portal</title>
-    <style>
-    .AllClubs{
-        display: grid;
-        grid-template-columns: auto auto;
-        border: blue;
-        height: 100vh;
-        gap: 10px;
-        color:gold;
-    }
-    .AllClubs div{
-        border:outset blue;
-        color: gold;
-        background-color: rgb(255, 0, 0);
-    }
-    .AllClubs img{
-        width: 50%;
-        height: 300px;
-        float:left;
-    }
-    .btn-gradient {
-
-        width: 200px;
-
-        height: 40px;
-
-        border: none;
-
-        border-radius: 10px;
-
-        color: #fff;
-
-        animation: c 53s linear infinite;
-
-        background: linear-gradient(
-
-        121.19deg,
-
-        rgba(133, 239, 49, 0) 25.73%,
-
-        hsla(0, 0%, 100%, 0.3) 45.27%,
-
-        rgba(133, 239, 49, 0) 62.27% ), orange;
-
-        transition: background-color 0.5s ease;
-
-        }
-
-        .btn-gradient:hover {
-
-        animation: c 53s linear infinite;
-
-        background: linear-gradient(
-
-        121.19deg,
-
-        rgba(133, 239, 49, 0) 25.73%,
-
-        hsla(0, 0%, 100%, 0.3) 45.27%,
-
-        rgba(133, 239, 49, 0) 62.27% ), blue;
-
-        }
-
-        @keyframes c {
-
-        0% {
-
-        background-position: -5000px 0;
-
-        }
-
-        to {
-
-        background-position: 5000px 0;
-
-        }
-        
-
-}
-    nav{
-        background-color: rgb(23, 20, 220);
-        margin-bottom: 10px;
-    }
-    nav ul{
-        display: flex;
-        list-style-type: none;
-        justify-content: space-around;
-    }
-    nav ul li{
-        padding: 10px;
-    }
-    nav ul li a{
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-family: sans-serif;
-    }
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .AllClubs p{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-align:justify ;
-        padding-right: 10px;
-    }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
     <div class="container">
         <div>
             <nav>
                 <ul>
-                    <li> <a href="">Home</a> </li>
-                    <li> <a href="about me.html">About Me</a> </li>
-                    <li> <a href="quotes.html">Quote Of The Day</a> </li>
+                    <li> <a href=""><i class="fas fa-home"></i>
+                        Home</a> </li>
+                    <li> <a href="about me.html"><i class="fas fa-id-card"></i> About Me</a> </li>
+                    <li> <a href="quotes.html"><i class="fas fa-chalkboard"></i> Quote Of The Day</a> </li>
                 </ul>
             </nav>
         </div>
